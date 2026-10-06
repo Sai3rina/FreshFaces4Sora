@@ -1,4 +1,4 @@
-title: Fresh Faces 4 ( Sora Option 1 )
+title: Fresh Faces 4
 description: Puts Sora in a Fresh New Look.
 assets:
 #
@@ -14,10 +14,6 @@ assets:
   platform: pc
   source:
   - name: KH2Moose.ini
-- name: scripts/unrender.lua
-  method: copy
-  source:
-  - name: unrender.lua
 #SORA
 - name: obj/ACTOR_SORA.mdlx
   multi: 
@@ -87,7 +83,7 @@ assets:
     method: copy
     source:
     - name: Base.tim
-#Textures Sora Main
+#Textures Sora 
 - name: remastered\obj\P_EX100.mdlx\-0.dds
   multi: 
   - name: remastered\obj\ACTOR_SORA.mdlx\-0.dds
@@ -117,67 +113,7 @@ assets:
   method: copy
   source:
   - name: Textures\Sora1\-0.dds
-#Textures Sora Jacket
-- name: remastered\obj\P_EX100.mdlx\-3.dds
-  multi: 
-  - name: remastered\obj\ACTOR_SORA.mdlx\-3.dds
-  - name: remastered\obj\AL14_PLAYER.mdlx\-3.dds
-  - name: remastered\obj\DEAD_BOSS.mdlx\-3.dds
-  - name: remastered\obj\LAST_ATTACKER.mdlx\-3.dds
-  - name: remastered\obj\LAST_GIMMICK.mdlx\-3.dds
-  - name: remastered\obj\LAST_HITMARK.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_LAST.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_MEMO.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_NPC.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_WM.mdlx\-3.dds
-  - name: remastered\obj\PLAYER.mdlx\-3.dds
-  - name: remastered\obj\PO06_PLAYER.mdlx\-3.dds
-  - name: remastered\obj\PO07_PLAYER.mdlx\-3.dds
-  - name: remastered\obj\PO08_PLAYER.mdlx\-3.dds
-  - name: remastered\obj\WM_EX100.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_XM.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_TR.mdlx\-3.dds
-  - name: remastered\obj\TR_PLAYER.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_WI.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_NM.mdlx\-3.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Sora1\-3.dds
-#Textures Sora Shirt
-- name: remastered\obj\P_EX100.mdlx\-4.dds
-  multi: 
-  - name: remastered\obj\ACTOR_SORA.mdlx\-4.dds
-  - name: remastered\obj\AL14_PLAYER.mdlx\-4.dds
-  - name: remastered\obj\DEAD_BOSS.mdlx\-4.dds
-  - name: remastered\obj\LAST_ATTACKER.mdlx\-4.dds
-  - name: remastered\obj\LAST_GIMMICK.mdlx\-4.dds
-  - name: remastered\obj\LAST_HITMARK.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_LAST.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_MEMO.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_NPC.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_WM.mdlx\-4.dds
-  - name: remastered\obj\PLAYER.mdlx\-4.dds
-  - name: remastered\obj\PO06_PLAYER.mdlx\-4.dds
-  - name: remastered\obj\PO07_PLAYER.mdlx\-4.dds
-  - name: remastered\obj\PO08_PLAYER.mdlx\-4.dds
-  - name: remastered\obj\WM_EX100.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_XM.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_TR.mdlx\-4.dds
-  - name: remastered\obj\TR_PLAYER.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_WI.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_NM.mdlx\-4.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Sora1\-4.dds
-#Textures Eye mouth Crown
+#Textures Face Eye mouth Crown
 - name: remastered\obj\P_EX100.mdlx\-1.dds
   multi: 
   - name: remastered\obj\ACTOR_SORA.mdlx\-1.dds
@@ -361,67 +297,129 @@ assets:
   method: copy
   source:
   - name: Textures\Fix\-5.dds
-- name: remastered\obj\P_EX100.mdlx\-6.dds
+- name: remastered\obj\P_EX100.mdlx\-4.dds
   multi: 
-  - name: remastered\obj\ACTOR_SORA.mdlx\-6.dds
-  - name: remastered\obj\AL14_PLAYER.mdlx\-6.dds
-  - name: remastered\obj\DEAD_BOSS.mdlx\-6.dds
-  - name: remastered\obj\LAST_ATTACKER.mdlx\-6.dds
-  - name: remastered\obj\LAST_GIMMICK.mdlx\-6.dds
-  - name: remastered\obj\LAST_HITMARK.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_LAST.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_MEMO.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_NPC.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_WM.mdlx\-6.dds
-  - name: remastered\obj\PLAYER.mdlx\-6.dds
-  - name: remastered\obj\PO06_PLAYER.mdlx\-6.dds
-  - name: remastered\obj\PO07_PLAYER.mdlx\-6.dds
-  - name: remastered\obj\PO08_PLAYER.mdlx\-6.dds
-  - name: remastered\obj\WM_EX100.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_KH1F.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_BTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_MAGF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TRIF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_ULTF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_HTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR_MAGF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR_TRIF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR_ULTF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_XM.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR.mdlx\-6.dds
-  - name: remastered\obj\TR_PLAYER.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_WI.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_NM.mdlx\-6.dds
+  - name: remastered\obj\ACTOR_SORA.mdlx\-4.dds
+  - name: remastered\obj\AL14_PLAYER.mdlx\-4.dds
+  - name: remastered\obj\DEAD_BOSS.mdlx\-4.dds
+  - name: remastered\obj\LAST_ATTACKER.mdlx\-4.dds
+  - name: remastered\obj\LAST_GIMMICK.mdlx\-4.dds
+  - name: remastered\obj\LAST_HITMARK.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_LAST.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_MEMO.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NPC.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WM.mdlx\-4.dds
+  - name: remastered\obj\PLAYER.mdlx\-4.dds
+  - name: remastered\obj\PO06_PLAYER.mdlx\-4.dds
+  - name: remastered\obj\PO07_PLAYER.mdlx\-4.dds
+  - name: remastered\obj\PO08_PLAYER.mdlx\-4.dds
+  - name: remastered\obj\WM_EX100.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_ULTF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_HTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TR_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TR_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TR_ULTF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TR.mdlx\-4.dds
+  - name: remastered\obj\TR_PLAYER.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_WI.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_NM.mdlx\-4.dds
   platform: pc
   method: copy
   source:
-  - name: Textures\Fix\-6.dds
+  - name: Textures\Fix\-4.dds
+- name: remastered\obj\P_EX100.mdlx\-3.dds
+  multi: 
+  - name: remastered\obj\ACTOR_SORA.mdlx\-3.dds
+  - name: remastered\obj\AL14_PLAYER.mdlx\-3.dds
+  - name: remastered\obj\DEAD_BOSS.mdlx\-3.dds
+  - name: remastered\obj\LAST_ATTACKER.mdlx\-3.dds
+  - name: remastered\obj\LAST_GIMMICK.mdlx\-3.dds
+  - name: remastered\obj\LAST_HITMARK.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_AL_CARPET.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_LAST.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_MEMO.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NPC.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_SIDECAR.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WM.mdlx\-3.dds
+  - name: remastered\obj\PLAYER.mdlx\-3.dds
+  - name: remastered\obj\PO06_PLAYER.mdlx\-3.dds
+  - name: remastered\obj\PO07_PLAYER.mdlx\-3.dds
+  - name: remastered\obj\PO08_PLAYER.mdlx\-3.dds
+  - name: remastered\obj\WM_EX100.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_ULTF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_HTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_ULTF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR.mdlx\-3.dds
+  - name: remastered\obj\TR_PLAYER.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_TR_LIGHTCYCLE.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_NM.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Fix\-3.dds
+#
 #
 #
 #	Drives
@@ -437,26 +435,6 @@ assets:
   method: copy
   source:
   - name: Textures\Drives\Valor\-0.dds
-- name: remastered\obj\P_EX100_BTLF.mdlx\-4.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-4.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Valor\-4.dds
-- name: remastered\obj\P_EX100_BTLF.mdlx\-3.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_BTLF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_TR_BTLF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-3.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Valor\-3.dds
 #
 #
 #	Wisdom
@@ -470,26 +448,6 @@ assets:
   method: copy
   source:
   - name: Textures\Drives\Wisdom\-0.dds
-- name: remastered\obj\P_EX100_MAGF.mdlx\-4.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_TR_MAGF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-4.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Wisdom\-4.dds
-- name: remastered\obj\P_EX100_MAGF.mdlx\-3.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_MAGF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_TR_MAGF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-3.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Wisdom\-3.dds
 #
 #
 #	Master
@@ -503,26 +461,6 @@ assets:
   method: copy
   source:
   - name: Textures\Drives\Master\-0.dds
-- name: remastered\obj\P_EX100_TRIF.mdlx\-4.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_TR_TRIF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-4.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Master\-4.dds
-- name: remastered\obj\P_EX100_TRIF.mdlx\-3.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_TRIF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_TR_TRIF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-3.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Master\-3.dds
 #
 #
 #	Limit
@@ -536,26 +474,6 @@ assets:
   method: copy
   source:
   - name: Textures\Drives\Limit\-0.dds
-- name: remastered\obj\P_EX100_KH1F.mdlx\-4.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-4.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Limit\-4.dds
-- name: remastered\obj\P_EX100_KH1F.mdlx\-3.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_KH1F.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_TR_KH1F.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-3.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Limit\-3.dds
 #
 #
 #	Final
@@ -569,26 +487,6 @@ assets:
   method: copy
   source:
   - name: Textures\Drives\Final\-0.dds
-- name: remastered\obj\P_EX100_ULTF.mdlx\-4.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_TR_ULTF.mdlx\-4.dds
-  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-4.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Final\-4.dds
-- name: remastered\obj\P_EX100_ULTF.mdlx\-3.dds
-  multi: 
-  - name: remastered\obj\P_EX100_NM_ULTF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_TR_ULTF.mdlx\-3.dds
-  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-3.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Drives\Final\-3.dds
 #
 #
 #	Anti Summon Anti
@@ -658,18 +556,6 @@ assets:
   method: copy
   source:
   - name: Textures\Anti\-5.dds
-- name: remastered\obj\P_EX100_HTLF.mdlx\-6.dds
-  multi: 
-  - name: remastered\obj\P_EX100_HTLF_BTL.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_NM_HTLF.mdlx\-6dds
-  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_TR_HTLF.mdlx\-6.dds
-  - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-6.dds
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\Anti\-6.dds
-#
 #
 #	Puasemenu
 #
