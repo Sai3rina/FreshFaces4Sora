@@ -583,4 +583,54 @@ assets:
   method: copy
   source:
   - name: Textures\menu\us\camp.2ld\US_camp_2ld0.png
+#
+#
+#
+#	Roxas
+- name: obj/P_EX110.mdlx
+  multi: 
+  - name: obj/P_EX110_BTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Roxas.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: base2.tim
+#
+#
+- name: remastered\obj\P_EX110.mdlx\-0.dds
+  multi: 
+  - name: remastered\obj\P_EX110_BTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Roxas\-0.dds
+- name: remastered\obj\P_EX110.mdlx\-1.dds
+  multi: 
+  - name: remastered\obj\P_EX110_BTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Roxas\-1.dds
+- name: remastered\obj\P_EX110.mdlx\-2.dds
+  multi: 
+  - name: remastered\obj\P_EX110_BTLF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Roxas\-2.dds
+- name: remastered\obj\P_EX110.mdlx\-3.dds
+  multi: 
+  - name: remastered\obj\P_EX110_BTLF.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: Textures\Roxas\-3.dds
+
 
