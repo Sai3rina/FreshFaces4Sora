@@ -557,34 +557,6 @@ assets:
   source:
   - name: Textures\Anti\-5.dds
 #
-#	Puasemenu
-#
-- name: menu\fm\camp.2ld
-  multi: 
-  - name: menu\fr\camp.2ld
-  - name: menu\gr\camp.2ld
-  - name: menu\it\camp.2ld
-  - name: menu\sp\camp.2ld
-  - name: menu\uk\camp.2ld
-  - name: menu\us\camp.2ld
-  platform: pc
-  method: copy
-  source:
-  - name: menu\us\camp.2ld
-- name: remastered\menu\fm\camp.2ld\FM_camp_2ld0.png
-  multi: 
-  - name: remastered\menu\fr\camp.2ld\FR_camp_2ld0.png
-  - name: remastered\menu\gr\camp.2ld\GR_camp_2ld0.png
-  - name: remastered\menu\it\camp.2ld\IT_camp_2ld0.png
-  - name: remastered\menu\sp\camp.2ld\SP_camp_2ld0.png
-  - name: remastered\menu\uk\camp.2ld\UK_camp_2ld0.png
-  - name: remastered\menu\us\camp.2ld\US_camp_2ld0.png
-  platform: pc
-  method: copy
-  source:
-  - name: Textures\menu\us\camp.2ld\US_camp_2ld0.png
-#
-#
 #
 #	Roxas
 - name: obj/P_EX110.mdlx
